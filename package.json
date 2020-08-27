@@ -1,0 +1,29 @@
+{
+  "name": "hud",
+  "version": "1.0.0",
+  "description": "A Heads-up Display for Stedi applications. Covers pipelines and application state (CW alarms, etc.)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "run": "ts-node lib/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/blessed": "^0.1.17",
+    "@types/lodash": "^4.14.160",
+    "jest": "^26.4.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.739.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.20",
+    "chalk": "^4.1.0",
+    "date-fns": "^2.15.0",
+    "limiter": "^1.1.5",
+    "lodash": "^4.17.20"
+  }
+}
